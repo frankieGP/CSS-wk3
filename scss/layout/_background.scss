@@ -1,0 +1,21 @@
+
+.first::after {
+  background: url("#{$path-img}/lully3.jpg");
+  @extend %bgimg;
+}
+
+.second::after {
+  background-image: url("#{$path-img}/willis2.jpg");
+  @extend %bgimg;
+}
+
+.third::after {
+  background-image: url("#{$path-img}/kero2.jpg");
+  @extend %bgimg;
+}
+
+.fourth::after {
+  background-image: url("#{$path-img}/bomba2.jpg");
+  @extend %bgimg;
+
+}

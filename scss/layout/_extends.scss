@@ -1,0 +1,33 @@
+
+//Background Image properties//
+%bgimg {
+  height: 50em;
+  content: "";
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+// Card properties
+%card {
+  position: relative;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+//Clear Fix
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

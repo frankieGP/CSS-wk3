@@ -1,0 +1,8 @@
+
+//background image properties
+@mixin bkprop($repeat, $size, $pos, $display){
+  background-repeat: $repeat;
+  background-size: $size;
+  background-position: $pos;
+  display: $display;
+}

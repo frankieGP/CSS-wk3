@@ -1,0 +1,5 @@
+.col {
+  @include bkprop(no-repeat, cover, center, inline-block);
+  width: 100%;
+  height: 50em;
+}

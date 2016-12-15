@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Reem Kufi", sans-serif; }
+
+a:link {
+  color: #fff; }
+a:hover {
+  color: red; }
+
+.buttons {
+  width: 80%;
+  margin: auto;
+  display: block; }
+
+.first::after {
+  background: url("../img/lully3.jpg"); }
+
+.second::after {
+  background-image: url("../img/willis2.jpg"); }
+
+.third::after {
+  background-image: url("../img/kero2.jpg"); }
+
+.fourth::after {
+  background-image: url("../img/bomba2.jpg"); }
+
+.col {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 100%;
+  height: 50em; }
+
+.container {
+  margin: auto; }
+
+.first {
+  color: #fff; }
+
+.third {
+  color: #18edf0; }
+
+.fourth {
+  color: red; }
+
+.first::after, .second::after, .third::after, .fourth::after {
+  height: 50em;
+  content: "";
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block; }
+
+.first, .second, .third, .fourth {
+  position: relative;
+  font-weight: bold;
+  font-size: 18px; }
+
+.score {
+  color: #fff;
+  margin: auto;
+  margin-top: 5em;
+  width: 80%;
+  display: block;
+  border-top: 1px solid #fff;
+  padding-top: 1em; }
+
+.views {
+  float: left;
+  display: inline; }
+
+.likes {
+  float: right;
+  display: inline; }
+
+.opaque img {
+  width: 80%;
+  height: 12em;
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+  border: 3px solid #fff; }
+
+.text {
+  width: 80%;
+  margin: auto;
+  display: block; }
+
+/*# sourceMappingURL=application.css.map */

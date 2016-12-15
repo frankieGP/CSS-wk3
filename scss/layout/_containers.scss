@@ -1,0 +1,26 @@
+.container {
+  margin: auto;
+}
+
+
+
+
+// Cards
+.first {
+  color: $color-prime;
+  @extend %card;
+
+}
+.second {
+  @extend %card;
+
+}
+.third {
+  color: #18edf0;
+  @extend %card;
+
+}
+.fourth {
+  color: red;
+  @extend %card;
+}
