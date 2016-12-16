@@ -6,3 +6,13 @@
   background-position: $pos;
   display: $display;
 }
+
+
+@mixin ellipsis($width: 100%) {
+  display: inline-block;
+  max-width: $width;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
