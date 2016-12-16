@@ -1,27 +1,15 @@
 .container {
   margin: 0 auto;
-  height: 50em;
+
 }
 
 
 
 
 // Cards
-.first {
-  color: $color-prime;
+.first, .second, .third, .fourth {
   @extend %card;
+  height: 1000px;
+  position: relative;
 
-}
-.second {
-  @extend %card;
-
-}
-.third {
-  color: #18edf0;
-  @extend %card;
-
-}
-.fourth {
-  color: red;
-  @extend %card;
 }

@@ -10,10 +10,12 @@
 
 
 body {
+  color: $color-prime;
   margin: 0;
   font-family: $stack-reem;
-
+  background-color: rgb(42, 42, 42)
 }
+
 a {
   &:link {
     color: $color-prime;

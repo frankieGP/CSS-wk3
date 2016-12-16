@@ -1,23 +1,9 @@
-.score {
+.foot {
   color: $color-prime;
-  position: absolute;
-
-  margin-top: 60px;
-  width: 100%;
+  display: inline-block;
   border-top: 1px solid $color-prime;
-
-  padding-top: 1em;
-
-}
-
-.views {
-  float: left;
-  display: inline;
-  margin-left: 1em;
-}
-.likes {
-  float: right;
-  display: inline;
-  margin-right: 1em;
-
+  border-bottom: 1px solid $color-prime;
+  width: 100%;
+  margin: 0;
+  text-align: center;
 }
