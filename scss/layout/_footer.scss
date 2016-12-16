@@ -1,10 +1,11 @@
 .score {
   color: $color-prime;
-  margin: auto;
-  margin-top: 5em;
-  width: 80%;
-  display: block;
+  position: absolute;
+
+  margin-top: 60px;
+  width: 100%;
   border-top: 1px solid $color-prime;
+
   padding-top: 1em;
 
 }
@@ -12,8 +13,11 @@
 .views {
   float: left;
   display: inline;
+  margin-left: 1em;
 }
 .likes {
   float: right;
   display: inline;
+  margin-right: 1em;
+
 }

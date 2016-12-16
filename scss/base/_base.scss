@@ -24,5 +24,8 @@ a {
 }
 
 p {
-   @include ellipsis;
+   @media #{$brk-mobile} {
+     @include ellipsis;
+
+   }
 }
