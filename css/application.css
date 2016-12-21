@@ -13,22 +13,26 @@ body {
 
 a:link {
   color: #fff; }
+a:visited {
+  color: #fff; }
 a:hover {
   color: red; }
-
-@media (max-width: 768px) {
-  p {
-    display: inline-block;
-    max-width: 100%;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    word-wrap: normal; } }
+@media (max-width: 831px) {
+  a {
+    font-size: 1.5em;
+    padding-left: 25px;
+    padding-right: 25px; } }
+@media (min-width: 832px) {
+  a {
+    font-size: 1.5em;
+    padding: 10px; } }
 
 .buttons {
-  width: 80%;
+  width: 100%;
   margin: auto;
-  display: block; }
+  position: absolute;
+  top: 850px;
+  text-align: center; }
 
 .first::after {
   background: url("../img/lully3.jpg"); }
@@ -40,26 +44,35 @@ a:hover {
   background-image: url("../img/kero2.jpg"); }
 
 .fourth::after {
-  background-image: url("../img/bomba2.jpg"); }
+  background-image: url("../img/bomba3.jpg"); }
 
 .col {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: inline-block;
-  width: 100%;
-  height: 100%; }
-  @media (min-width: 769px) {
+  height: 63em;
+  position: relative; }
+  @media (min-width: 832px) {
     .col {
       width: 25%;
       float: left; } }
+  @media (max-width: 831px) {
+    .col {
+      width: 100%; } }
 
-.container {
-  margin: 0 auto; }
+.content::after {
+  clear: both;
+  content: "";
+  display: table; }
 
-.first, .second, .third, .fourth {
-  height: 1000px;
-  position: relative; }
+.opaque {
+  width: 90%;
+  height: 25%;
+  margin: auto;
+  margin-top: 4em;
+  display: block;
+  border: 3px solid #fff; }
 
 .first::after, .second::after, .third::after, .fourth::after {
   background-repeat: no-repeat;
@@ -75,8 +88,21 @@ a:hover {
   position: absolute;
   z-index: -1; }
 
-.first, .second, .third, .fourth {
-  position: relative; }
+.score {
+  position: absolute;
+  top: 900px;
+  left: 10%;
+  color: #fff;
+  margin: 5px auto;
+  margin-top: 40px;
+  width: 80%;
+  border-top: 1px solid #fff;
+  padding-top: 5px;
+  text-align: center;
+  display: block; }
+  @media (max-width: 831px) {
+    .score {
+      font-size: 1.2em; } }
 
 .foot {
   color: #fff;
@@ -93,31 +119,12 @@ a:hover {
   margin: auto;
   display: block; }
 
-.opaque {
-  width: 300px;
-  height: 200px;
-  margin: auto;
-  margin-top: 4em;
-  display: block;
-  border: 3px solid #fff; }
-
 .text {
-  height: 35em;
-  width: 80%;
   margin: auto;
-  text-overflow: ellipsis;
-  border: 1px solid green; }
+  width: 90%; }
 
-.score {
-  position: absolute;
-  top: 900px;
-  left: 30px;
-  color: #fff;
-  margin: 5px auto;
-  width: 80%;
-  border-top: 1px solid #fff;
-  padding-top: 5px;
-  display: block;
-  text-align: center; }
+@media (max-width: 831px) {
+  .text p {
+    font-size: 1.4em; } }
 
 /*# sourceMappingURL=application.css.map */
