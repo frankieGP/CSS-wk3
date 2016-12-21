@@ -1,3 +1,26 @@
+// FOOTER OF COLUMN
+
+.score {
+  position: absolute;
+  top: 900px;
+  left: 10%;
+  color: $color-prime;
+  margin: 5px auto;
+  margin-top: 40px;
+  width: 80%;
+  border-top: 1px solid $color-prime;
+  padding-top: 5px;
+  text-align: center;
+  display: block;
+  @media #{$brk-mobile} {
+    font-size: 1.2em;
+  }
+}
+
+
+
+// FOOTER OF PAGE
+
 .foot {
   color: $color-prime;
   display: inline-block;

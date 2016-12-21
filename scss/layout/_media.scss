@@ -1,0 +1,19 @@
+//OPAQUE IMAGES PROPERTIES
+
+.opaque img {
+  @include size(100%);
+  margin: auto;
+  display: block;
+}
+
+// TEXT BLOCK PROPERTIES
+.text {
+  margin: auto;
+  width: 90%;
+}
+
+.text p {
+  @media #{$brk-mobile} {
+    font-size: 1.4em;
+  }
+}

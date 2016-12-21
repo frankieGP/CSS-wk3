@@ -1,15 +1,16 @@
-.container {
-  margin: 0 auto;
+// CONTAINER FOR ALL COLUMNS
 
+.content {
+  @include clearfix;
 }
 
+// CONTAINER FOR OPAQUE IMAGE
 
-
-
-// Cards
-.first, .second, .third, .fourth {
-  @extend %card;
-  height: 1000px;
-  position: relative;
-
+.opaque  {
+  width: 90%;
+  height: 25%;
+  margin: auto;
+  margin-top: 1em;
+  display: block;
+  border: 3px solid $color-prime;
 }

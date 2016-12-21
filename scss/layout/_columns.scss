@@ -1,9 +1,15 @@
+// GENERAL PROPERTIES OF ALL COLUMNS
+
 .col {
-  @include bkprop(no-repeat, cover, center, inline-block);
-  width: 100%;
-  height: 100%;
+  @include bkimgprop(no-repeat, cover, center, inline-block);
+  height: 63em;
+  position: relative;
+  
   @media #{$brk-wide} {
     width: 25%;
     float: left;
+  }
+  @media #{$brk-mobile} {
+    width: 100%;
   }
 }

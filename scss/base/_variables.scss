@@ -2,13 +2,12 @@
 
 $white: #fff;
 
-
 //Function color variables
 
 $color-prime: $white;
 
-
 // font
+
 $stack-reem: 'Reem Kufi', sans-serif;
 
 //asset paths
@@ -16,5 +15,6 @@ $stack-reem: 'Reem Kufi', sans-serif;
 $path-img: '../img';
 
 //Media Query breakpoints
-$brk-mobile: "(max-width: 768px)";
-$brk-wide: "(min-width: 769px)";
+
+$brk-mobile: "(max-width: 831px)";
+$brk-wide: "(min-width: 832px)";

@@ -1,3 +1,4 @@
+// TRANSPARENT BACKGROUND IMAGES
 
 .first::after {
   background: url("#{$path-img}/lully3.jpg");
@@ -15,7 +16,7 @@
 }
 
 .fourth::after {
-  background-image: url("#{$path-img}/bomba2.jpg");
+  background-image: url("#{$path-img}/bomba3.jpg");
   @extend %bgimg;
 
 }

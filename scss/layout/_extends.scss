@@ -1,7 +1,6 @@
-
 //Background Image properties//
 %bgimg {
-  @include bkprop(no-repeat, cover, center, inline-block);
+  @include bkimgprop(no-repeat, cover, center, inline-block);
   content: "";
   opacity: 0.55;
   top: 0;
@@ -10,18 +9,4 @@
   right: 0;
   position: absolute;
   z-index: -1;
-}
-
-// Card properties
-%card {
-  position: relative;
-}
-
-//Clear Fix
-%clearfix {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 }
